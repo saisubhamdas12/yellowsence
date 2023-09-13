@@ -1,0 +1,13 @@
+<html>
+<head>
+    <title>Available Maids</title>
+</head>
+<body>
+    <h1>Available Maids</h1>
+    <ul>
+        {% for maid in maids %}
+            <li>{{ maid.name }} (Rating: {{ maid.rating }})</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
